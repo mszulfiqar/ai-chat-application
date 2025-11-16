@@ -1,0 +1,44 @@
+# Node.js dependencies
+node_modules/
+
+# Compiled JS output
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Prisma
+/generated/prisma/
+/prisma/migrations/
+/prisma/dev.db
+/prisma/.env    # if you have a local Prisma env file
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ESLint / Prettier cache
+.eslintcache
+.prettiercache
+
+# VSCode / IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Better Auth CLI local files
+.better-auth/
+
+# Optional: coverage (if you add testing later)
+coverage/
